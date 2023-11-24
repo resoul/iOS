@@ -17,11 +17,11 @@ class AppTabBarController: UITabBarController, UITabBarControllerDelegate {
         tabBar.isTranslucent = false
         
         viewControllers = [
-            createNavigationController(icon: "home", activeIcon: "home-selected"),
-            createNavigationController(icon: "search", activeIcon: "search"),
+            createNavigationController(icon: "home", activeIcon: "home-selected", rootViewController: HomeController()),
+            createNavigationController(icon: "search", activeIcon: "search", rootViewController: ExploreController()),
             createNavigationController(icon: "media", activeIcon: "media"),
-            createNavigationController(icon: "reels", activeIcon: "reels-selected"),
-            createNavigationController(icon: "user", activeIcon: "user-selected")
+            createNavigationController(icon: "reels", activeIcon: "reels-selected", rootViewController: ReelsController()),
+            createNavigationController(icon: "user", activeIcon: "user-selected", rootViewController: ProfileController())
         ]
     }
     
@@ -30,6 +30,7 @@ class AppTabBarController: UITabBarController, UITabBarControllerDelegate {
         // .withTintColor(.label)
         navController.tabBarItem.image = UIImage(named: icon)?.withRenderingMode(.alwaysOriginal)
         navController.tabBarItem.selectedImage = UIImage(named: activeIcon)?.withRenderingMode(.alwaysOriginal)
+        navController.view.backgroundColor = .systemBackground
 
         return navController
     }
@@ -49,8 +50,9 @@ class AppTabBarController: UITabBarController, UITabBarControllerDelegate {
     func tabBarController(_ tabBarController: UITabBarController, shouldSelect viewController: UIViewController) -> Bool {
         let index = viewControllers?.firstIndex(of: viewController)
         if index == 2 {
-            let mediaController = UINavigationController(rootViewController: UIViewController())
+            let mediaController = UINavigationController(rootViewController: MediaController())
             mediaController.modalPresentationStyle = .overFullScreen
+            mediaController.view.backgroundColor = .systemBackground
             present(mediaController, animated: true)
 
             return false

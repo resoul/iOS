@@ -2,7 +2,12 @@
 //  UIView.swift
 //  iOS
 //
-//  Created by resoul on 24.11.2023.
-//
 
-import Foundation
+import UIKit
+
+extension UIView {
+    
+    func addSubviews(_ views: UIView...) {
+        views.forEach { addSubview($0) }
+    }
+}

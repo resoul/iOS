@@ -14,6 +14,22 @@
 		8958FCD02B10007F0072EAC8 /* AppTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8958FCCF2B10007F0072EAC8 /* AppTabBarController.swift */; };
 		8958FCD22B1001080072EAC8 /* InfoPlist.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 8958FCD12B1001080072EAC8 /* InfoPlist.xcstrings */; };
 		8958FCD42B1001160072EAC8 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 8958FCD32B1001160072EAC8 /* Localizable.xcstrings */; };
+		8958FCF82B100D120072EAC8 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 8958FCF72B100D120072EAC8 /* Kingfisher */; };
+		8958FD1F2B10C6A90072EAC8 /* Config.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 8958FD1E2B10C6A90072EAC8 /* Config.xcconfig */; };
+		8958FD262B10C8330072EAC8 /* MediaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8958FD252B10C8330072EAC8 /* MediaController.swift */; };
+		8958FD282B10C8970072EAC8 /* ExploreController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8958FD272B10C8970072EAC8 /* ExploreController.swift */; };
+		8958FD2A2B10C8BD0072EAC8 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8958FD292B10C8BD0072EAC8 /* HomeController.swift */; };
+		8958FD2C2B10C8CB0072EAC8 /* ProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8958FD2B2B10C8CB0072EAC8 /* ProfileController.swift */; };
+		8958FD2E2B10C8D90072EAC8 /* ReelsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8958FD2D2B10C8D90072EAC8 /* ReelsController.swift */; };
+		8958FD312B10CB550072EAC8 /* XLPagerTabStrip in Frameworks */ = {isa = PBXBuildFile; productRef = 8958FD302B10CB550072EAC8 /* XLPagerTabStrip */; };
+		8958FD342B10CB890072EAC8 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 8958FD332B10CB890072EAC8 /* Alamofire */; };
+		8958FD382B10CDF20072EAC8 /* LayoutConstraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8958FD372B10CDF20072EAC8 /* LayoutConstraints.swift */; };
+		8958FD3A2B10CE0D0072EAC8 /* Int.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8958FD392B10CE0D0072EAC8 /* Int.swift */; };
+		8958FD3C2B10CE150072EAC8 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8958FD3B2B10CE150072EAC8 /* String.swift */; };
+		8958FD3E2B10CE850072EAC8 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8958FD3D2B10CE850072EAC8 /* UIView.swift */; };
+		8958FD402B10CEB60072EAC8 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8958FD3F2B10CEB60072EAC8 /* UIColor.swift */; };
+		8958FD422B10CED20072EAC8 /* UICollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8958FD412B10CED20072EAC8 /* UICollectionViewCell.swift */; };
+		8958FD442B10CEF30072EAC8 /* UICollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8958FD432B10CEF30072EAC8 /* UICollectionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +42,19 @@
 		8958FCCF2B10007F0072EAC8 /* AppTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTabBarController.swift; sourceTree = "<group>"; };
 		8958FCD12B1001080072EAC8 /* InfoPlist.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = InfoPlist.xcstrings; sourceTree = "<group>"; };
 		8958FCD32B1001160072EAC8 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		8958FD1E2B10C6A90072EAC8 /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
+		8958FD252B10C8330072EAC8 /* MediaController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaController.swift; sourceTree = "<group>"; };
+		8958FD272B10C8970072EAC8 /* ExploreController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreController.swift; sourceTree = "<group>"; };
+		8958FD292B10C8BD0072EAC8 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		8958FD2B2B10C8CB0072EAC8 /* ProfileController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileController.swift; sourceTree = "<group>"; };
+		8958FD2D2B10C8D90072EAC8 /* ReelsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReelsController.swift; sourceTree = "<group>"; };
+		8958FD372B10CDF20072EAC8 /* LayoutConstraints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutConstraints.swift; sourceTree = "<group>"; };
+		8958FD392B10CE0D0072EAC8 /* Int.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Int.swift; sourceTree = "<group>"; };
+		8958FD3B2B10CE150072EAC8 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		8958FD3D2B10CE850072EAC8 /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		8958FD3F2B10CEB60072EAC8 /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		8958FD412B10CED20072EAC8 /* UICollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICollectionViewCell.swift; sourceTree = "<group>"; };
+		8958FD432B10CEF30072EAC8 /* UICollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICollectionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +62,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8958FD342B10CB890072EAC8 /* Alamofire in Frameworks */,
+				8958FCF82B100D120072EAC8 /* Kingfisher in Frameworks */,
+				8958FD312B10CB550072EAC8 /* XLPagerTabStrip in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +104,7 @@
 				8958FC8C2B0FFA6E0072EAC8 /* Info.plist */,
 				8958FCD12B1001080072EAC8 /* InfoPlist.xcstrings */,
 				8958FCD32B1001160072EAC8 /* Localizable.xcstrings */,
+				8958FD1E2B10C6A90072EAC8 /* Config.xcconfig */,
 			);
 			path = Resource;
 			sourceTree = "<group>";
@@ -80,26 +113,86 @@
 			isa = PBXGroup;
 			children = (
 				8958FCCE2B1000110072EAC8 /* Main */,
-				8958FCCD2B10000B0072EAC8 /* Core */,
+				8958FD352B10CD550072EAC8 /* Core */,
 				8958FC7E2B0FFA6D0072EAC8 /* AppDelegate.swift */,
 				8958FC802B0FFA6D0072EAC8 /* SceneDelegate.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
 		};
-		8958FCCD2B10000B0072EAC8 /* Core */ = {
+		8958FCCE2B1000110072EAC8 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				8958FD242B10C8040072EAC8 /* Explore */,
+				8958FD232B10C7FE0072EAC8 /* Media */,
+				8958FD222B10C7F50072EAC8 /* Reels */,
+				8958FD212B10C7EC0072EAC8 /* Profile */,
+				8958FD202B10C7E30072EAC8 /* Home */,
+				8958FCCF2B10007F0072EAC8 /* AppTabBarController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		8958FD202B10C7E30072EAC8 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				8958FD292B10C8BD0072EAC8 /* HomeController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		8958FD212B10C7EC0072EAC8 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				8958FD2B2B10C8CB0072EAC8 /* ProfileController.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		8958FD222B10C7F50072EAC8 /* Reels */ = {
+			isa = PBXGroup;
+			children = (
+				8958FD2D2B10C8D90072EAC8 /* ReelsController.swift */,
+			);
+			path = Reels;
+			sourceTree = "<group>";
+		};
+		8958FD232B10C7FE0072EAC8 /* Media */ = {
+			isa = PBXGroup;
+			children = (
+				8958FD252B10C8330072EAC8 /* MediaController.swift */,
+			);
+			path = Media;
+			sourceTree = "<group>";
+		};
+		8958FD242B10C8040072EAC8 /* Explore */ = {
+			isa = PBXGroup;
+			children = (
+				8958FD272B10C8970072EAC8 /* ExploreController.swift */,
+			);
+			path = Explore;
+			sourceTree = "<group>";
+		};
+		8958FD352B10CD550072EAC8 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				8958FD362B10CDDC0072EAC8 /* UI */,
+				8958FD372B10CDF20072EAC8 /* LayoutConstraints.swift */,
+				8958FD392B10CE0D0072EAC8 /* Int.swift */,
+				8958FD3B2B10CE150072EAC8 /* String.swift */,
 			);
 			path = Core;
 			sourceTree = "<group>";
 		};
-		8958FCCE2B1000110072EAC8 /* Main */ = {
+		8958FD362B10CDDC0072EAC8 /* UI */ = {
 			isa = PBXGroup;
 			children = (
-				8958FCCF2B10007F0072EAC8 /* AppTabBarController.swift */,
+				8958FD3D2B10CE850072EAC8 /* UIView.swift */,
+				8958FD3F2B10CEB60072EAC8 /* UIColor.swift */,
+				8958FD412B10CED20072EAC8 /* UICollectionViewCell.swift */,
+				8958FD432B10CEF30072EAC8 /* UICollectionView.swift */,
 			);
-			path = Main;
+			path = UI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -118,6 +211,11 @@
 			dependencies = (
 			);
 			name = iOS;
+			packageProductDependencies = (
+				8958FCF72B100D120072EAC8 /* Kingfisher */,
+				8958FD302B10CB550072EAC8 /* XLPagerTabStrip */,
+				8958FD332B10CB890072EAC8 /* Alamofire */,
+			);
 			productName = iOS;
 			productReference = 8958FC7B2B0FFA6D0072EAC8 /* iOS.app */;
 			productType = "com.apple.product-type.application";
@@ -146,6 +244,11 @@
 				Base,
 			);
 			mainGroup = 8958FC722B0FFA6D0072EAC8;
+			packageReferences = (
+				8958FCF62B100D120072EAC8 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				8958FD2F2B10CB550072EAC8 /* XCRemoteSwiftPackageReference "XLPagerTabStrip" */,
+				8958FD322B10CB890072EAC8 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = 8958FC7C2B0FFA6D0072EAC8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -161,6 +264,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8958FCD22B1001080072EAC8 /* InfoPlist.xcstrings in Resources */,
+				8958FD1F2B10C6A90072EAC8 /* Config.xcconfig in Resources */,
 				8958FC8B2B0FFA6E0072EAC8 /* LaunchScreen.storyboard in Resources */,
 				8958FCD42B1001160072EAC8 /* Localizable.xcstrings in Resources */,
 				8958FC882B0FFA6E0072EAC8 /* Assets.xcassets in Resources */,
@@ -174,9 +278,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8958FD442B10CEF30072EAC8 /* UICollectionView.swift in Sources */,
+				8958FD2C2B10C8CB0072EAC8 /* ProfileController.swift in Sources */,
+				8958FD3C2B10CE150072EAC8 /* String.swift in Sources */,
+				8958FD262B10C8330072EAC8 /* MediaController.swift in Sources */,
+				8958FD282B10C8970072EAC8 /* ExploreController.swift in Sources */,
+				8958FD3E2B10CE850072EAC8 /* UIView.swift in Sources */,
+				8958FD382B10CDF20072EAC8 /* LayoutConstraints.swift in Sources */,
+				8958FD2A2B10C8BD0072EAC8 /* HomeController.swift in Sources */,
 				8958FCD02B10007F0072EAC8 /* AppTabBarController.swift in Sources */,
+				8958FD422B10CED20072EAC8 /* UICollectionViewCell.swift in Sources */,
 				8958FC7F2B0FFA6D0072EAC8 /* AppDelegate.swift in Sources */,
+				8958FD402B10CEB60072EAC8 /* UIColor.swift in Sources */,
+				8958FD3A2B10CE0D0072EAC8 /* Int.swift in Sources */,
 				8958FC812B0FFA6D0072EAC8 /* SceneDelegate.swift in Sources */,
+				8958FD2E2B10C8D90072EAC8 /* ReelsController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -322,10 +438,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = K682D44QJG;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = iOS/Info.plist;
+				INFOPLIST_FILE = iOS/Resource/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -350,10 +465,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = K682D44QJG;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = iOS/Info.plist;
+				INFOPLIST_FILE = iOS/Resource/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -391,6 +505,51 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8958FCF62B100D120072EAC8 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.10.0;
+			};
+		};
+		8958FD2F2B10CB550072EAC8 /* XCRemoteSwiftPackageReference "XLPagerTabStrip" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/xmartlabs/XLPagerTabStrip.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.1.0;
+			};
+		};
+		8958FD322B10CB890072EAC8 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.8.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8958FCF72B100D120072EAC8 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8958FCF62B100D120072EAC8 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		8958FD302B10CB550072EAC8 /* XLPagerTabStrip */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8958FD2F2B10CB550072EAC8 /* XCRemoteSwiftPackageReference "XLPagerTabStrip" */;
+			productName = XLPagerTabStrip;
+		};
+		8958FD332B10CB890072EAC8 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8958FD322B10CB890072EAC8 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 8958FC732B0FFA6D0072EAC8 /* Project object */;
 }
