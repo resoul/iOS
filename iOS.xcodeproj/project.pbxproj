@@ -30,6 +30,9 @@
 		8958FD402B10CEB60072EAC8 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8958FD3F2B10CEB60072EAC8 /* UIColor.swift */; };
 		8958FD422B10CED20072EAC8 /* UICollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8958FD412B10CED20072EAC8 /* UICollectionViewCell.swift */; };
 		8958FD442B10CEF30072EAC8 /* UICollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8958FD432B10CEF30072EAC8 /* UICollectionView.swift */; };
+		8958FD4C2B10D30C0072EAC8 /* ShortcutManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8958FD4B2B10D30C0072EAC8 /* ShortcutManager.swift */; };
+		8958FD4E2B10D3160072EAC8 /* ShortcutItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8958FD4D2B10D3160072EAC8 /* ShortcutItem.swift */; };
+		8958FD502B10DA070072EAC8 /* ShortcutDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8958FD4F2B10DA070072EAC8 /* ShortcutDataSource.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,6 +58,9 @@
 		8958FD3F2B10CEB60072EAC8 /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
 		8958FD412B10CED20072EAC8 /* UICollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICollectionViewCell.swift; sourceTree = "<group>"; };
 		8958FD432B10CEF30072EAC8 /* UICollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICollectionView.swift; sourceTree = "<group>"; };
+		8958FD4B2B10D30C0072EAC8 /* ShortcutManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortcutManager.swift; sourceTree = "<group>"; };
+		8958FD4D2B10D3160072EAC8 /* ShortcutItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortcutItem.swift; sourceTree = "<group>"; };
+		8958FD4F2B10DA070072EAC8 /* ShortcutDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortcutDataSource.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -176,6 +182,7 @@
 		8958FD352B10CD550072EAC8 /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				8958FD4A2B10D3030072EAC8 /* Shortcut */,
 				8958FD362B10CDDC0072EAC8 /* UI */,
 				8958FD372B10CDF20072EAC8 /* LayoutConstraints.swift */,
 				8958FD392B10CE0D0072EAC8 /* Int.swift */,
@@ -193,6 +200,16 @@
 				8958FD432B10CEF30072EAC8 /* UICollectionView.swift */,
 			);
 			path = UI;
+			sourceTree = "<group>";
+		};
+		8958FD4A2B10D3030072EAC8 /* Shortcut */ = {
+			isa = PBXGroup;
+			children = (
+				8958FD4B2B10D30C0072EAC8 /* ShortcutManager.swift */,
+				8958FD4D2B10D3160072EAC8 /* ShortcutItem.swift */,
+				8958FD4F2B10DA070072EAC8 /* ShortcutDataSource.swift */,
+			);
+			path = Shortcut;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -280,11 +297,14 @@
 			files = (
 				8958FD442B10CEF30072EAC8 /* UICollectionView.swift in Sources */,
 				8958FD2C2B10C8CB0072EAC8 /* ProfileController.swift in Sources */,
+				8958FD4E2B10D3160072EAC8 /* ShortcutItem.swift in Sources */,
 				8958FD3C2B10CE150072EAC8 /* String.swift in Sources */,
 				8958FD262B10C8330072EAC8 /* MediaController.swift in Sources */,
 				8958FD282B10C8970072EAC8 /* ExploreController.swift in Sources */,
 				8958FD3E2B10CE850072EAC8 /* UIView.swift in Sources */,
 				8958FD382B10CDF20072EAC8 /* LayoutConstraints.swift in Sources */,
+				8958FD502B10DA070072EAC8 /* ShortcutDataSource.swift in Sources */,
+				8958FD4C2B10D30C0072EAC8 /* ShortcutManager.swift in Sources */,
 				8958FD2A2B10C8BD0072EAC8 /* HomeController.swift in Sources */,
 				8958FCD02B10007F0072EAC8 /* AppTabBarController.swift in Sources */,
 				8958FD422B10CED20072EAC8 /* UICollectionViewCell.swift in Sources */,
