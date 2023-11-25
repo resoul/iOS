@@ -34,6 +34,9 @@
 		8958FD5C2B10E7460072EAC8 /* PermissionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8958FD5B2B10E7460072EAC8 /* PermissionManager.swift */; };
 		8958FD5E2B10E75F0072EAC8 /* PhotoPermission.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8958FD5D2B10E75F0072EAC8 /* PhotoPermission.swift */; };
 		8958FD602B10E7C30072EAC8 /* Permission.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8958FD5F2B10E7C30072EAC8 /* Permission.swift */; };
+		8958FD4C2B10D30C0072EAC8 /* ShortcutManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8958FD4B2B10D30C0072EAC8 /* ShortcutManager.swift */; };
+		8958FD4E2B10D3160072EAC8 /* ShortcutItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8958FD4D2B10D3160072EAC8 /* ShortcutItem.swift */; };
+		8958FD502B10DA070072EAC8 /* ShortcutDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8958FD4F2B10DA070072EAC8 /* ShortcutDataSource.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -66,6 +69,9 @@
 		8958FD5B2B10E7460072EAC8 /* PermissionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionManager.swift; sourceTree = "<group>"; };
 		8958FD5D2B10E75F0072EAC8 /* PhotoPermission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoPermission.swift; sourceTree = "<group>"; };
 		8958FD5F2B10E7C30072EAC8 /* Permission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Permission.swift; sourceTree = "<group>"; };
+		8958FD4B2B10D30C0072EAC8 /* ShortcutManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortcutManager.swift; sourceTree = "<group>"; };
+		8958FD4D2B10D3160072EAC8 /* ShortcutItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortcutItem.swift; sourceTree = "<group>"; };
+		8958FD4F2B10DA070072EAC8 /* ShortcutDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortcutDataSource.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -186,6 +192,7 @@
 			children = (
 				8958FD582B10E1500072EAC8 /* Permission */,
 				8958FD512B10DE7E0072EAC8 /* Asset */,
+				8958FD4A2B10D3030072EAC8 /* Shortcut */,
 				8958FD362B10CDDC0072EAC8 /* UI */,
 				8958FD372B10CDF20072EAC8 /* LayoutConstraints.swift */,
 				8958FD392B10CE0D0072EAC8 /* Int.swift */,
@@ -232,6 +239,14 @@
 				8958FD5F2B10E7C30072EAC8 /* Permission.swift */,
 			);
 			path = Manager;
+		8958FD4A2B10D3030072EAC8 /* Shortcut */ = {
+			isa = PBXGroup;
+			children = (
+				8958FD4B2B10D30C0072EAC8 /* ShortcutManager.swift */,
+				8958FD4D2B10D3160072EAC8 /* ShortcutItem.swift */,
+				8958FD4F2B10DA070072EAC8 /* ShortcutDataSource.swift */,
+			);
+			path = Shortcut;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -314,6 +329,7 @@
 				8958FD5A2B10E6920072EAC8 /* PermissionStatus.swift in Sources */,
 				8958FD442B10CEF30072EAC8 /* UICollectionView.swift in Sources */,
 				8958FD2C2B10C8CB0072EAC8 /* ProfileController.swift in Sources */,
+				8958FD4E2B10D3160072EAC8 /* ShortcutItem.swift in Sources */,
 				8958FD3C2B10CE150072EAC8 /* String.swift in Sources */,
 				8958FD5E2B10E75F0072EAC8 /* PhotoPermission.swift in Sources */,
 				8958FD262B10C8330072EAC8 /* MediaController.swift in Sources */,
@@ -323,6 +339,8 @@
 				8958FD382B10CDF20072EAC8 /* LayoutConstraints.swift in Sources */,
 				8958FD602B10E7C30072EAC8 /* Permission.swift in Sources */,
 				8958FD552B10DE980072EAC8 /* AssetDataSource.swift in Sources */,
+				8958FD502B10DA070072EAC8 /* ShortcutDataSource.swift in Sources */,
+				8958FD4C2B10D30C0072EAC8 /* ShortcutManager.swift in Sources */,
 				8958FD2A2B10C8BD0072EAC8 /* HomeController.swift in Sources */,
 				8958FD532B10DE8E0072EAC8 /* AssetManager.swift in Sources */,
 				8958FD572B10DEA20072EAC8 /* AssetCollection.swift in Sources */,
