@@ -14,15 +14,12 @@
 		8958FCD02B10007F0072EAC8 /* AppTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8958FCCF2B10007F0072EAC8 /* AppTabBarController.swift */; };
 		8958FCD22B1001080072EAC8 /* InfoPlist.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 8958FCD12B1001080072EAC8 /* InfoPlist.xcstrings */; };
 		8958FCD42B1001160072EAC8 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 8958FCD32B1001160072EAC8 /* Localizable.xcstrings */; };
-		8958FCF82B100D120072EAC8 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 8958FCF72B100D120072EAC8 /* Kingfisher */; };
 		8958FD1F2B10C6A90072EAC8 /* Config.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 8958FD1E2B10C6A90072EAC8 /* Config.xcconfig */; };
 		8958FD262B10C8330072EAC8 /* MediaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8958FD252B10C8330072EAC8 /* MediaController.swift */; };
 		8958FD282B10C8970072EAC8 /* ExploreController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8958FD272B10C8970072EAC8 /* ExploreController.swift */; };
 		8958FD2A2B10C8BD0072EAC8 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8958FD292B10C8BD0072EAC8 /* HomeController.swift */; };
 		8958FD2C2B10C8CB0072EAC8 /* ProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8958FD2B2B10C8CB0072EAC8 /* ProfileController.swift */; };
 		8958FD2E2B10C8D90072EAC8 /* ReelsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8958FD2D2B10C8D90072EAC8 /* ReelsController.swift */; };
-		8958FD312B10CB550072EAC8 /* XLPagerTabStrip in Frameworks */ = {isa = PBXBuildFile; productRef = 8958FD302B10CB550072EAC8 /* XLPagerTabStrip */; };
-		8958FD342B10CB890072EAC8 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 8958FD332B10CB890072EAC8 /* Alamofire */; };
 		8958FD382B10CDF20072EAC8 /* LayoutConstraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8958FD372B10CDF20072EAC8 /* LayoutConstraints.swift */; };
 		8958FD3A2B10CE0D0072EAC8 /* Int.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8958FD392B10CE0D0072EAC8 /* Int.swift */; };
 		8958FD3C2B10CE150072EAC8 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8958FD3B2B10CE150072EAC8 /* String.swift */; };
@@ -30,6 +27,13 @@
 		8958FD402B10CEB60072EAC8 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8958FD3F2B10CEB60072EAC8 /* UIColor.swift */; };
 		8958FD422B10CED20072EAC8 /* UICollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8958FD412B10CED20072EAC8 /* UICollectionViewCell.swift */; };
 		8958FD442B10CEF30072EAC8 /* UICollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8958FD432B10CEF30072EAC8 /* UICollectionView.swift */; };
+		8958FD532B10DE8E0072EAC8 /* AssetManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8958FD522B10DE8E0072EAC8 /* AssetManager.swift */; };
+		8958FD552B10DE980072EAC8 /* AssetDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8958FD542B10DE980072EAC8 /* AssetDataSource.swift */; };
+		8958FD572B10DEA20072EAC8 /* AssetCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8958FD562B10DEA20072EAC8 /* AssetCollection.swift */; };
+		8958FD5A2B10E6920072EAC8 /* PermissionStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8958FD592B10E6920072EAC8 /* PermissionStatus.swift */; };
+		8958FD5C2B10E7460072EAC8 /* PermissionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8958FD5B2B10E7460072EAC8 /* PermissionManager.swift */; };
+		8958FD5E2B10E75F0072EAC8 /* PhotoPermission.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8958FD5D2B10E75F0072EAC8 /* PhotoPermission.swift */; };
+		8958FD602B10E7C30072EAC8 /* Permission.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8958FD5F2B10E7C30072EAC8 /* Permission.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,6 +59,13 @@
 		8958FD3F2B10CEB60072EAC8 /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
 		8958FD412B10CED20072EAC8 /* UICollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICollectionViewCell.swift; sourceTree = "<group>"; };
 		8958FD432B10CEF30072EAC8 /* UICollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICollectionView.swift; sourceTree = "<group>"; };
+		8958FD522B10DE8E0072EAC8 /* AssetManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetManager.swift; sourceTree = "<group>"; };
+		8958FD542B10DE980072EAC8 /* AssetDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetDataSource.swift; sourceTree = "<group>"; };
+		8958FD562B10DEA20072EAC8 /* AssetCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetCollection.swift; sourceTree = "<group>"; };
+		8958FD592B10E6920072EAC8 /* PermissionStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionStatus.swift; sourceTree = "<group>"; };
+		8958FD5B2B10E7460072EAC8 /* PermissionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionManager.swift; sourceTree = "<group>"; };
+		8958FD5D2B10E75F0072EAC8 /* PhotoPermission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoPermission.swift; sourceTree = "<group>"; };
+		8958FD5F2B10E7C30072EAC8 /* Permission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Permission.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,9 +73,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8958FD342B10CB890072EAC8 /* Alamofire in Frameworks */,
-				8958FCF82B100D120072EAC8 /* Kingfisher in Frameworks */,
-				8958FD312B10CB550072EAC8 /* XLPagerTabStrip in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,6 +184,8 @@
 		8958FD352B10CD550072EAC8 /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				8958FD582B10E1500072EAC8 /* Permission */,
+				8958FD512B10DE7E0072EAC8 /* Asset */,
 				8958FD362B10CDDC0072EAC8 /* UI */,
 				8958FD372B10CDF20072EAC8 /* LayoutConstraints.swift */,
 				8958FD392B10CE0D0072EAC8 /* Int.swift */,
@@ -195,6 +205,35 @@
 			path = UI;
 			sourceTree = "<group>";
 		};
+		8958FD512B10DE7E0072EAC8 /* Asset */ = {
+			isa = PBXGroup;
+			children = (
+				8958FD522B10DE8E0072EAC8 /* AssetManager.swift */,
+				8958FD542B10DE980072EAC8 /* AssetDataSource.swift */,
+				8958FD562B10DEA20072EAC8 /* AssetCollection.swift */,
+			);
+			path = Asset;
+			sourceTree = "<group>";
+		};
+		8958FD582B10E1500072EAC8 /* Permission */ = {
+			isa = PBXGroup;
+			children = (
+				8958FD612B10F4F60072EAC8 /* Manager */,
+				8958FD5D2B10E75F0072EAC8 /* PhotoPermission.swift */,
+			);
+			path = Permission;
+			sourceTree = "<group>";
+		};
+		8958FD612B10F4F60072EAC8 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				8958FD592B10E6920072EAC8 /* PermissionStatus.swift */,
+				8958FD5B2B10E7460072EAC8 /* PermissionManager.swift */,
+				8958FD5F2B10E7C30072EAC8 /* Permission.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -212,9 +251,6 @@
 			);
 			name = iOS;
 			packageProductDependencies = (
-				8958FCF72B100D120072EAC8 /* Kingfisher */,
-				8958FD302B10CB550072EAC8 /* XLPagerTabStrip */,
-				8958FD332B10CB890072EAC8 /* Alamofire */,
 			);
 			productName = iOS;
 			productReference = 8958FC7B2B0FFA6D0072EAC8 /* iOS.app */;
@@ -245,9 +281,6 @@
 			);
 			mainGroup = 8958FC722B0FFA6D0072EAC8;
 			packageReferences = (
-				8958FCF62B100D120072EAC8 /* XCRemoteSwiftPackageReference "Kingfisher" */,
-				8958FD2F2B10CB550072EAC8 /* XCRemoteSwiftPackageReference "XLPagerTabStrip" */,
-				8958FD322B10CB890072EAC8 /* XCRemoteSwiftPackageReference "Alamofire" */,
 			);
 			productRefGroup = 8958FC7C2B0FFA6D0072EAC8 /* Products */;
 			projectDirPath = "";
@@ -278,14 +311,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8958FD5A2B10E6920072EAC8 /* PermissionStatus.swift in Sources */,
 				8958FD442B10CEF30072EAC8 /* UICollectionView.swift in Sources */,
 				8958FD2C2B10C8CB0072EAC8 /* ProfileController.swift in Sources */,
 				8958FD3C2B10CE150072EAC8 /* String.swift in Sources */,
+				8958FD5E2B10E75F0072EAC8 /* PhotoPermission.swift in Sources */,
 				8958FD262B10C8330072EAC8 /* MediaController.swift in Sources */,
 				8958FD282B10C8970072EAC8 /* ExploreController.swift in Sources */,
+				8958FD5C2B10E7460072EAC8 /* PermissionManager.swift in Sources */,
 				8958FD3E2B10CE850072EAC8 /* UIView.swift in Sources */,
 				8958FD382B10CDF20072EAC8 /* LayoutConstraints.swift in Sources */,
+				8958FD602B10E7C30072EAC8 /* Permission.swift in Sources */,
+				8958FD552B10DE980072EAC8 /* AssetDataSource.swift in Sources */,
 				8958FD2A2B10C8BD0072EAC8 /* HomeController.swift in Sources */,
+				8958FD532B10DE8E0072EAC8 /* AssetManager.swift in Sources */,
+				8958FD572B10DEA20072EAC8 /* AssetCollection.swift in Sources */,
 				8958FCD02B10007F0072EAC8 /* AppTabBarController.swift in Sources */,
 				8958FD422B10CED20072EAC8 /* UICollectionViewCell.swift in Sources */,
 				8958FC7F2B0FFA6D0072EAC8 /* AppDelegate.swift in Sources */,
@@ -439,6 +479,7 @@
 				DEVELOPMENT_TEAM = K682D44QJG;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = iOS/Resource/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Airlance;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -450,6 +491,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = airlance.iOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -466,6 +510,7 @@
 				DEVELOPMENT_TEAM = K682D44QJG;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = iOS/Resource/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Airlance;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -477,6 +522,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = airlance.iOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -505,51 +553,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		8958FCF62B100D120072EAC8 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 7.10.0;
-			};
-		};
-		8958FD2F2B10CB550072EAC8 /* XCRemoteSwiftPackageReference "XLPagerTabStrip" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/xmartlabs/XLPagerTabStrip.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 9.1.0;
-			};
-		};
-		8958FD322B10CB890072EAC8 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 5.8.1;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		8958FCF72B100D120072EAC8 /* Kingfisher */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 8958FCF62B100D120072EAC8 /* XCRemoteSwiftPackageReference "Kingfisher" */;
-			productName = Kingfisher;
-		};
-		8958FD302B10CB550072EAC8 /* XLPagerTabStrip */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 8958FD2F2B10CB550072EAC8 /* XCRemoteSwiftPackageReference "XLPagerTabStrip" */;
-			productName = XLPagerTabStrip;
-		};
-		8958FD332B10CB890072EAC8 /* Alamofire */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 8958FD322B10CB890072EAC8 /* XCRemoteSwiftPackageReference "Alamofire" */;
-			productName = Alamofire;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 8958FC732B0FFA6D0072EAC8 /* Project object */;
 }
