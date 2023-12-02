@@ -50,9 +50,8 @@ class AppTabBarController: UITabBarController, UITabBarControllerDelegate {
     func tabBarController(_ tabBarController: UITabBarController, shouldSelect viewController: UIViewController) -> Bool {
         let index = viewControllers?.firstIndex(of: viewController)
         if index == 2 {
-            let mediaController = UINavigationController(rootViewController: MediaController())
+            let mediaController = UINavigationController(rootViewController: MediaSegmentedController())
             mediaController.modalPresentationStyle = .overFullScreen
-            mediaController.view.backgroundColor = .systemBackground
             present(mediaController, animated: true)
 
             return false

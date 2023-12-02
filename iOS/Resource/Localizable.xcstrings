@@ -1,6 +1,9 @@
 {
   "sourceLanguage" : "en",
   "strings" : {
+    "Create Post" : {
+
+    },
     "Explore" : {
       "localizations" : {
         "en" : {
@@ -20,6 +23,9 @@
           }
         }
       }
+    },
+    "Next" : {
+
     },
     "Profile" : {
       "localizations" : {
