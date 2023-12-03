@@ -1,16 +1,16 @@
 //
-//  GridView.swift
+//  GridLineLayout.swift
 //  iOS
 //
 
 import UIKit
 
-class GridView: UIView {
+class GridLineLayout: UIView {
     
-    fileprivate let line1 = GridViewLine()
-    fileprivate let line2 = GridViewLine()
-    fileprivate let line3 = GridViewLine()
-    fileprivate let line4 = GridViewLine()
+    fileprivate let line1 = GridLine()
+    fileprivate let line2 = GridLine()
+    fileprivate let line3 = GridLine()
+    fileprivate let line4 = GridLine()
     
     fileprivate let stroke: CGFloat = 2
     
@@ -20,8 +20,8 @@ class GridView: UIView {
         isUserInteractionEnabled = false
         
         let screenWidth = UIScreen.main.bounds.width
-        let row1 = CGFloat(-screenWidth * 0.33)
-        let row2 = CGFloat(-screenWidth * 0.66)
+        let row1 = CGFloat(screenWidth * 0.33)
+        let row2 = CGFloat(screenWidth * 0.66)
         line1.makeLayout(width: stroke, height: 0)
         line2.makeLayout(width: stroke, height: 0)
         line3.makeLayout(width: 0, height: stroke)

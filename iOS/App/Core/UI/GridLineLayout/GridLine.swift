@@ -1,17 +1,16 @@
 //
-//  GridViewLine.swift
+//  GridLine.swift
 //  iOS
 //
 
 import UIKit
 
-final class GridViewLine: UIView {
+final class GridLine: UIView {
     
     override init(frame: CGRect) {
         super.init(frame: frame)
         
-//        backgroundColor = .white.withAlphaComponent(0.6)
-        backgroundColor = .white
+        backgroundColor = .white.withAlphaComponent(0.5)
         layer.shadowColor = UIColor.black.cgColor
         layer.shadowOpacity = 1
         layer.shadowRadius = 2
